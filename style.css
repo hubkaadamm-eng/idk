@@ -1,0 +1,64 @@
+/* Základní reset a nastavení fontu pro celou stránku */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Světle šedé pozadí */
+    color: #333; /* Tmavý text */
+}
+
+/* Centrování obsahu na stránce */
+.kontejner {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Styl hlavičky */
+header {
+    background: #007bff; /* Modrá barva */
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0056b3 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Styl hlavní sekce */
+#hlavni-sekce {
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+#hlavni-sekce h2 {
+    color: #007bff;
+}
+
+/* Styl tlačítka */
+.tlacitko {
+    display: inline-block;
+    color: white;
+    background: #28a745; /* Zelená barva */
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.tlacitko:hover {
+    background: #1e7e34; /* Tmavší zelená při přejetí myší */
+}
+
+/* Styl patičky */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
